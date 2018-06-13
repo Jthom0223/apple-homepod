@@ -1,0 +1,280 @@
+// Framework
+@import 'bulma';
+// Light Gallery Base Styling
+@import 'lightgallery';
+// Light Gallery Animations
+@import 'lg-transitions';
+
+// font-family: 'Bungee Inline', cursive;
+// font-family: 'Bungee', cursive;
+
+// Styles
+  
+  .title {
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 100px;
+    color: white;
+    font-family: 'Bungee', cursive;
+}
+
+.word_split1 .word3 {
+  background:  linear-gradient(to left, #777dff, #f154ff, #f0357c),linear-gradient(to right, #777dff, #497ce2, #37bdde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.word_split2 .word33 {
+   background:  linear-gradient(to left, #777dff, #f154ff, #f0357c),linear-gradient(to right, #777dff, #497ce2, #37bdde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  background: #202020;
+}
+
+section {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.subheader {
+  font-size: 50px;
+  margin-top: 40px;
+  font-family: 'Bungee', cursive;
+  color: white;
+}
+
+.subheader2 {
+  font-size: 50px;
+  margin-top: 40px;
+  font-family: 'Bungee', cursive;
+  color: #202020;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.footer {
+  width: 200%;
+  text-align: center;
+  position: relative;
+  left: -550px;
+}
+
+#center {
+  text-align: center;
+}
+
+.img1 {
+  padding: 0px;
+}
+
+.darkbg1 {
+  background: #fafafa;
+  margin-left: -700px;
+  margin-right: -700px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.darkbg2 {
+  background: #fafafa;
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
+img[alt="Thumbnail"] {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.pw {
+  color: lightgrey;
+}
+
+.navbar {
+  padding-left: 20px;
+  background: white;
+}
+
+.navbar-item {
+  color: black;
+}
+
+  .links {
+  margin-left: 75px;
+}
+
+.imgradius {
+  border-radius: 25px;
+}
+
+.sirisha {
+  background:  linear-gradient(to left, #777dff, #f154ff, #f0357c),linear-gradient(to right, #777dff, #497ce2, #37bdde);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  opacity: 0;
+  font-size: 50px;
+}
+
+.s1 {
+    animation: fadeInLeft 2s linear 18s forwards;
+    
+}
+
+.s2 {
+    animation: fadeInRight 2s linear 20s forwards; 
+ 
+}
+
+.s3 {
+    animation: fadeInLeft 2s linear 22s forwards;
+
+}
+
+.hide {
+  opacity: 0;
+}
+
+.t1 {
+  animation: fadeInRight 1.5s linear forwards;
+}
+
+.t2 {
+  animation: fadeInUp 1.5s linear 2s forwards;
+}
+
+.t3 {
+  animation: fadeInUp 1.5s linear 3s forwards;
+}
+
+.t4 {
+  animation: fadeInRight 1.5s linear 3s forwards;
+}
+
+.t5 {
+  animation: fadeInUp 1.5s linear 6s forwards;
+}
+
+.t6 {
+  animation: fadeInUp 1.5s linear 9s forwards;
+}
+.t7 {
+  animation: fadeInRight 1.5s linear 9s forwards;
+}
+.t8 {
+  animation: fadeInUp 1.5s linear 12s forwards;
+}
+.t9 {
+  animation: fadeInUp 1.5s linear 15s forwards;
+}
+.t10 {
+  animation: fadeInRight 1.5s linear 15s forwards;
+}
+.t11 {
+  animation: fadeInUp 1.5s linear 18s forwards;
+}
+.t12 {
+  animation: fadeInUp 1.5s linear 21s forwards;
+}
+.t13 {
+  animation: fadeInRight 1.5s linear 21s forwards;
+}
+.t14 {
+  animation: fadeInUp 1.5s linear 24s forwards;
+}
+.t15 {
+  animation: fadeInUp 1.5s linear 27s forwards;
+}
+.t16 {
+  animation: fadeInRight 1.5s linear 27s forwards;
+}
+.t17 {
+  animation: fadeInUp 1.5s linear 30s forwards;
+}
+
+// KeyFrames
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+// Media Queries
+
+
+  
+  
+  
+  
+  
+  
